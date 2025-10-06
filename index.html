@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreelakshmi M C - Portfolio</title>
+    <!-- Bootstrap CSS for grid and carousel only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts for professional and elegant look -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" type="" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="100">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href='index.html'>Shreelakshmi M C</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="d-flex align-items-center">
+        <div class="container py-5">
+            <div id="home-content" class="row">
+                <!-- Image Column -->
+                <div class="col-lg-5 col-md-6 d-flex justify-content-center">
+                    <div class="profile-img-container">
+                        <img src="images/profile.jpg" class="profile-img" alt="Shreelakshmi M C Profile">
+                    </div>
+                </div>
+                <!-- Text Content Column -->
+                <div class="col-lg-7 col-md-6 mt-4 mt-md-0">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1 class="name-highlight mb-3">Shreelakshmi M C</h1>
+                    
+                    <!-- Typewriter Text Line -->
+                    <div class="typewriter-line mb-4">
+                        <span class="me-2">I am a</span>
+                        <span id="typewriter" class="typewriter-text"></span>
+                    </div>
+
+                    <p class="intro-passage">I am a certified MuleSoft Developer with a focus on designing efficient API integrations that streamline enterprise processes. Beyond integration, I enjoy building modern web applications that are practical and user-friendly. I aim to leverage both skills to create solutions that are not only technically sound but also impactful for end users.</p>
+                    
+                    <div class="mt-4 d-flex justify-content-center justify-content-md-start">
+                        <!-- Social Icons -->
+                        <a href="https://www.linkedin.com/in/shreelakshmi-m-c-233249239" target="_blank" class="social-icon-circle" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/ShreelakshmiMC" target="_blank" class="social-icon-circle" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="mailto:shree152002@gmail.com" class="social-icon-circle" title="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="tel:+918453232690" class="social-icon-circle" title="Phone"><i class="fas fa-phone-alt"></i></a>
+                        <a href="document/ShreelakshmiMC_Resume.pdf" download="ShreelakshmiMC_Resume" class="social-icon-circle" title="Download Resume"><i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Skills</h2>
+            <div class="skill-grid">
+                <!-- Skill Card: HTML -->
+                <div class="skill-card card-effect">
+                    <i class="fab fa-html5 skill-icon html-color"></i>
+                    <p class="skill-name">HTML</p>
+                </div>
+                <!-- Skill Card: CSS -->
+                <div class="skill-card card-effect">
+                    <i class="fab fa-css3-alt skill-icon css-color"></i>
+                    <p class="skill-name">CSS</p>
+                </div>
+                <!-- Skill Card: JavaScript -->
+                <div class="skill-card card-effect">
+                    <i class="fab fa-js-square skill-icon js-color"></i>
+                    <p class="skill-name">JavaScript</p>
+                </div>
+                <!-- Skill Card: Bootstrap -->
+                <div class="skill-card card-effect">
+                    <i class="fab fa-bootstrap skill-icon bootstrap-color"></i>
+                    <p class="skill-name">Bootstrap</p>
+                </div>
+                <!-- Skill Card: Basic React -->
+                <div class="skill-card card-effect">
+                    <i class="fab fa-react skill-icon react-color"></i>
+                    <p class="skill-name">Basic React</p>
+                </div>
+                <!-- Skill Card: Basic PHP -->
+                <div class="skill-card card-effect">
+                    <i class="fab fa-php skill-icon php-color"></i>
+                    <p class="skill-name">Basic PHP</p>
+                </div>
+                <!-- Skill Card: MySQL -->
+                <div class="skill-card card-effect">
+                    <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="MySQL" class="skill-icon" style="width:40px; height:48px;">
+                    <p class="skill-name">MySQL</p>
+                </div>
+                <!-- Skill Card: MuleSoft -->
+                <div class="skill-card card-effect">
+                    <img src="https://cdn.simpleicons.org/mulesoft" alt="MuleSoft" class="skill-icon" style="width:40px; height:48px;">
+                    <p class="skill-name">MuleSoft</p>
+                </div>
+                <!-- Skill Card: Basic Salesforce -->
+                <div class="skill-card card-effect">
+                    <i class="fab fa-salesforce skill-icon salesforce-color"></i>
+                    <p class="skill-name">Basic Salesforce</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Projects Section -->
+    <section id="projects" class="py-5 d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h2 class="text-center mb-5">My Projects</h2>
+            
+            <!-- Bootstrap Carousel for Projects -->
+            <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner pb-5">
+                    
+                    <!-- Project 1 -->
+                    <div class="carousel-item active" >
+                        <div class="project-card card-effect">
+                            <img src="images/velocitytype.PNG" alt="Screenshot of Velocitytype: typing speed test" class="project-image-placeholder img-fluid rounded">
+                            <h3 class="h4">Velocitytype: typing speed test</h3>
+                            <p class="text-muted">Skills Used: HTML, CSS, JavaScript</p>
+                            <a href="https://velocity-type.netlify.app/" target="_blank" class="btn btn-custom mt-2">View Demo</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="carousel-item">
+                        <div class="project-card card-effect">
+                            <img src="images/aurora.PNG" alt="Screenshot of Aurora: E-commerce website" class="project-image-placeholder img-fluid rounded">
+                            <h3 class="h4">Aurora: E-commerce website</h3>
+                            <p class="text-muted">Skills Used: HTML, CSS, JavaScript</p>
+                            <a href="https://auroracollections.netlify.app/" target="_blank" class="btn btn-custom mt-2">View Demo</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="carousel-item">
+                        <div class="project-card card-effect">
+                            <img src="images/amazonclone.PNG" alt="Screenshot of amazon home page clone" class="project-image-placeholder img-fluid rounded">
+                            <h3 class="h4">amazon home page clone</h3>
+                            <p class="text-muted">Skills Used: HTML, CSS, JavaScript</p>
+                            <a href="https://amazon-cloneab.netlify.app/" target="_blank" class="btn btn-custom mt-2">View Demo</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="carousel-item">
+                        <div class="project-card card-effect">
+                            <img src="images/personalportfolio.PNG" alt="Screenshot of personalportfolio" class="project-image-placeholder img-fluid rounded">
+                            <h3 class="h4">Personal Portfolio (PHP)</h3>
+                            <p class="text-muted">Skills Used: HTML, CSS, JavaScript, Bootstrap</p>
+                            <a href="https://shreelakshmi-m-c.netlify.app" target="_blank" class="btn btn-custom mt-2">View Demo</a>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Professional Experience Section -->
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Professional Experience</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+
+                    <!-- Experience 1: Accenture -->
+                    <div class="experience-item">
+                        <div class="exp-card">
+                            <p class="company-name">Accenture Solutions Private Limited</p>
+                            <p class="role-years">Packaged App Development Associate | Sep. 2024 – Present</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle me-2 text-success" style="color:#A0522D !important;"></i> Skilled in designing, developing, and deploying <strong>RESTful APIs</strong> that integrate diverse enterprise systems.</li>
+                                <li><i class="fas fa-check-circle me-2 text-success" style="color:#A0522D !important;"></i> Built scalable and secure integration workflows to eliminate data silos and improve business efficiency.</li>
+                                <li><i class="fas fa-check-circle me-2 text-success" style="color:#A0522D !important;"></i> Collaborated with cross-functional teams to translate complex business requirements into technical integration solutions.</li>
+                                <li><i class="fas fa-check-circle me-2 text-success" style="color:#A0522D !important;"></i> Applied integration patterns, reusable components, and coding standards for consistent and high-quality delivery.</li>
+                                <li><i class="fas fa-check-circle me-2 text-success" style="color:#A0522D !important;"></i> Completed structured training in <strong>Salesforce Development</strong>, covering CRM customization, workflow automation, and app enhancements.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Experience 2: Foxconn -->
+                    <div class="experience-item">
+                        <div class="exp-card">
+                            <p class="company-name">Foxconn Hon Hai Technology</p>
+                            <p class="role-years">Trainee | May 2024 – Sep. 2024</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle me-2 text-success" style="color:#A0522D !important;"></i> Contributed to the manufacturing process by efficiently managing material issuance, which led to improved workflow and increased operational profitability.</li>
+                                <li><i class="fas fa-check-circle me-2 text-success" style="color:#A0522D !important;"></i> Successfully completed <strong>3 key projects within 4 months</strong>, showcasing adaptability and a strong ability to deliver results under tight timelines.</li>
+                                <li><i class="fas fa-check-circle me-2 text-success" style="color:#A0522D !important;"></i> Earned recognition for proactive problem-solving and effective collaboration within the team.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 5. Education & Certifications Section -->
+    <section id="education" class="py-5" style="background-color: #D2B48C;">
+        <div class="container">
+            <h2 class="text-center mb-5" style="color: #3e2723;">Education & Certifications</h2>
+            
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8">
+                    <h3 class="h4 mb-4" style="color: #4B3621;">Education History</h3>
+                    <!-- Education Item (BE) -->
+                    <div class="education-item">
+                        <div class="edu-card">
+                            <p class="company-name">B. N. M. Institute of Technology</p>
+                            <p class="role-years">B. E. in Electronics & Communication Engineering | 2020 – 2023</p>
+                        </div>
+                    </div>
+                    <!-- Education Item (Diploma) -->
+                    <div class="education-item">
+                        <div class="edu-card">
+                            <p class="company-name">Government Polytechnic for Women</p>
+                            <p class="role-years">Diploma in Electronics & Communication Engineering | 2017 – 2020</p>
+                        </div>
+                    </div>
+                    <!-- Education Item (SSLC) -->
+                    <div class="education-item">
+                        <div class="edu-card">
+                            <p class="company-name">Matha National English High School</p>
+                            <p class="role-years">SSLC | Completed in 2017</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            
+            <!-- Certifications & Internships -->
+            <h3 class="h4 text-center mb-4" style="color: #4B3621;">Internships & Certifications</h3>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center">
+                
+                <!-- Certification 1 -->
+                <div class="col">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate cert-icon"></i>
+                        <p class="company-name">Salesforce Certified Mulesoft Developer 1</p>
+                        <p class="role-years mb-0">MuleSoft</p>
+                    </div>
+                </div>
+                
+                <!-- Certification 2 -->
+                <div class="col">
+                    <div class="cert-card">
+                        <i class="fas fa-code cert-icon"></i>
+                        <p class="company-name">Introduction to Programming Using Java</p>
+                        <p class="role-years mb-0">Microsoft</p>
+                    </div>
+                </div>
+                
+                <!-- Internship/Certification 3 -->
+                <div class="col">
+                    <div class="cert-card">
+                        <i class="fas fa-desktop cert-icon"></i>
+                        <p class="company-name">Full Stack Web Development</p>
+                        <p class="role-years mb-0">Knowx Innovation PVT LTD</p>
+                    </div>
+                </div>
+                
+                <!-- Internship/Certification 4 -->
+                <div class="col">
+                    <div class="cert-card">
+                        <i class="fas fa-laptop-code cert-icon"></i>
+                        <p class="company-name">Web Development</p>
+                        <p class="role-years mb-0">Rooman Technologies</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Contact Section -->
+    <section id="contact" class="d-flex align-items-center">
+        <div class="container">
+            <h2 class="text-center mb-3">Let's Connect</h2>
+            <p class="text-center lead mb-5">I am actively seeking roles where I can combine my development skills with enterprise integration. Send me a detailed message regarding the opportunity below.</p>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form id="contactForm" onsubmit="handleFormSubmission(event); return false;">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-custom">Send Message</button>
+                        </div>
+                    </form>
+                    
+                    <!-- Success Message Box -->
+                    <div id="success-message">
+                        Your message is sent successfully! I will get back to you soon.
+                    </div>
+                    
+                    <div class="mt-5 text-center">
+                         <div class="mt-4">
+                            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-icon-circle" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/yourprofile" target="_blank" class="social-icon-circle" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="tel:+1234567890" class="social-icon-circle" title="Phone"><i class="fas fa-phone-alt"></i></a>
+                            <a href="document/ShreelakshmiMC_Resume.pdf" download="ShreelakshmiMC_Resume" class="social-icon-circle" title="Download Resume"><i class="fas fa-download"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS Bundle (Required for Navbar collapse and Carousel) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Basic JavaScript for Functionality and Animations -->
+    <script src="script.js"> </script>
+</body>
+</html>
